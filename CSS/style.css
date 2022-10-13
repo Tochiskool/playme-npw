@@ -4,6 +4,8 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 100%;
     line-height: 1.5rem;
+    float: left;
+  
 }
 
 header{
@@ -11,18 +13,43 @@ header{
     color:#ffffff;
     text-align: center;
     padding: 0.5rem;
+    /* margin-top: 2rem; */
+    border-top: 2rem solid red;
+}
+/* main{
+    width: 64rem;
+    margin: 0 auto;
+} */
+.image{
+    width: 70%;
+    float: left;
 }
 
-img{
-    margin: 0 auto;
-    display: block;
+.imageHouse img{
+    /* margin: 0 auto;
+    display: block; */
     margin-top: 1rem;
     border-radius: 50%;
+    margin-left: 2rem;
+    
+}
+.imageHouse p{
+    width: 70%;
+    float: right;
+    line-height: 2rem;
+    
 }
 
 section p{
     text-align: center;
 }
+
+ .contact ul{
+    text-decoration: none;
+    list-style: none;
+}
 section .contact{
+    float: left;
     text-align: center;
+    /* margin-top: 5rem; */
 }
